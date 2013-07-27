@@ -1,11 +1,10 @@
 {
   "name": "sendgrid",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "dependencies": {
     "underscore": {
       "version": "1.4.4",
-      "from": "underscore@1.4.4",
-      "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz"
+      "from": "underscore@1.4.4"
     },
     "nodemailer": {
       "version": "0.4.4",
@@ -26,8 +25,7 @@
                   "dependencies": {
                     "iconv-lite": {
                       "version": "0.2.7",
-                      "from": "iconv-lite@0.2.7",
-                      "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.2.7.tgz"
+                      "from": "iconv-lite@0.2.7"
                     }
                   }
                 },
@@ -40,13 +38,13 @@
           }
         },
         "simplesmtp": {
-          "version": "0.3.4",
+          "version": "0.3.5",
           "from": "simplesmtp@~0.2 || ~0.3",
+          "resolved": "https://registry.npmjs.org/simplesmtp/-/simplesmtp-0.3.5.tgz",
           "dependencies": {
             "rai": {
               "version": "0.1.7",
-              "from": "rai@~0.1",
-              "resolved": "https://registry.npmjs.org/rai/-/rai-0.1.7.tgz"
+              "from": "rai@~0.1"
             },
             "xoauth2": {
               "version": "0.1.8",
@@ -58,8 +56,7 @@
     },
     "mime": {
       "version": "1.2.9",
-      "from": "mime@1.2.9",
-      "resolved": "https://registry.npmjs.org/mime/-/mime-1.2.9.tgz"
+      "from": "mime@1.2.9"
     },
     "request": {
       "version": "2.22.0",
@@ -88,18 +85,15 @@
           "dependencies": {
             "assert-plus": {
               "version": "0.1.2",
-              "from": "assert-plus@0.1.2",
-              "resolved": "https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.2.tgz"
+              "from": "assert-plus@0.1.2"
             },
             "asn1": {
               "version": "0.1.11",
-              "from": "asn1@0.1.11",
-              "resolved": "https://registry.npmjs.org/asn1/-/asn1-0.1.11.tgz"
+              "from": "asn1@0.1.11"
             },
             "ctype": {
               "version": "0.5.2",
-              "from": "ctype@0.5.2",
-              "resolved": "https://registry.npmjs.org/ctype/-/ctype-0.5.2.tgz"
+              "from": "ctype@0.5.2"
             }
           }
         },
@@ -156,7 +150,6 @@
         "form-data": {
           "version": "0.0.8",
           "from": "form-data@0.0.8",
-          "resolved": "https://registry.npmjs.org/form-data/-/form-data-0.0.8.tgz",
           "dependencies": {
             "combined-stream": {
               "version": "0.0.4",
